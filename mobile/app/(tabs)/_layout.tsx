@@ -34,6 +34,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color, size }) => (
             <Feather name='home' size={size} color={color} />
           ),
+          tabBarAccessibilityLabel: 'Home',
         }}
       />
 
@@ -44,6 +45,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color, size }) => (
             <Feather name='search' size={size} color={color} />
           ),
+          tabBarAccessibilityLabel: 'Search',
         }}
       />
 
@@ -54,6 +56,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color, size }) => (
             <Feather name='bell' size={size} color={color} />
           ),
+          tabBarAccessibilityLabel: 'Notifications',
         }}
       />
 
@@ -64,6 +67,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color, size }) => (
             <Feather name='mail' size={size} color={color} />
           ),
+          tabBarAccessibilityLabel: 'Messages',
         }}
       />
 
@@ -74,6 +78,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color, size }) => (
             <Feather name='user' size={size} color={color} />
           ),
+          tabBarAccessibilityLabel: 'Profile',
         }}
       />
     </Tabs>
